@@ -1,0 +1,51 @@
+.select-wrapper {
+    width: 100%;
+}
+
+.select-input-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem .8rem;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.arrow {
+}
+
+.rotate {
+    rotate: 180deg;
+}
+
+.select-option-wrapper {
+    width: 100%;
+    margin-top: 2px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+    
+}
+
+.select-option {
+    font-size: large;
+    font-weight: 500;
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+    display: block;
+    padding: .4rem;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+}
+
+.focused {
+    background-color: grey;
+    color: white;
+}

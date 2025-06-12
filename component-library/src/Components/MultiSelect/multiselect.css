@@ -1,0 +1,88 @@
+.multi-select-wrapper {
+    width: 500px;
+}
+
+.multi-select-inner-wrapper {
+    width: 97%;
+    padding: .3rem;
+    border: 2px solid gray;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.select-tag-wrapper {
+    display:  flex;
+}
+
+.input-multiselect {
+    border: none;
+    max-width: 100%;
+}
+
+input-multiselect, input:focus-visible, :focus {
+    outline: none;
+}
+
+.remove-open-section {
+    display: flex;
+}
+.remove-all {
+    cursor: pointer;
+    font-size: small;
+    margin-right: 5px;
+    font-weight: 600;
+}
+/* multi-select-inner-wrapper :focus {
+    outline: 1px solid red;
+} */
+
+.multi-select-options-wrapper {
+    width: 100%;
+    margin-top: 2px;
+    border: .5px solid gray;
+    border-radius: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.multi-select-option {
+    cursor: pointer;
+    display: block;
+    padding: .4rem;
+    text-align: left;
+}
+
+/* .selected {
+    background-color: black;
+    color: white;
+} */
+
+.focus {
+    background-color: lightsteelblue;
+    color: white;
+}
+
+/* //// */
+
+.tag-wrapper {
+    display: flex;
+    padding: 0rem 0.4rem;
+    background-color: lightgrey;
+    border-radius: 3px;
+    margin-right: 0.2rem;
+    align-items: center;
+}
+
+.tag-name {
+    margin-right: 8px;
+    font-size: small;
+}
+
+.tag-close {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: smaller;
+}

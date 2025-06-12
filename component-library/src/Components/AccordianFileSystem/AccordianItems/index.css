@@ -1,0 +1,27 @@
+
+    .wrapper {
+        color: rgb(109, 109, 244);
+
+    }
+    .row-content {
+        display: flex;
+        align-items: center;
+    }
+    .acc-label {
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .arrow {
+        cursor: pointer;
+    }
+    .down {
+        transform: rotate(180deg);
+    }
+
+    .row-children {
+        margin-left: 50px;
+        align-items: baseline;
+        display: flex;
+        flex-direction: column;
+    }
