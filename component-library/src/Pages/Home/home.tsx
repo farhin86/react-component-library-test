@@ -10,6 +10,7 @@ import {
   preSelectedOptions,
 } from "../../Constants/generic";
 import Accordion from "../../Components/AccordianFileSystem/Accordion";
+import TermsAndConditions from "../../Components/TermsAndConditions";
 interface Tag {
   tagName: string;
   onClose: Function;
@@ -53,7 +54,8 @@ export const Home = () => {
 
   return (
     <div>
-      <Accordion />
+      {/* <Accordion /> */}
+      <TermsAndConditions />
       {/* <Algorithm /> */}
       {/* <h4>Custom Multi Select</h4>
       <MultiSelect
